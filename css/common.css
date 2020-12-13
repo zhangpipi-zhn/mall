@@ -1,0 +1,35 @@
+a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #333;
+}
+a:hover{
+    color: #1890ff;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clearfix:after{
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom: 1;
+}
+.part1{
+    width: 208px;
+}
+.part2{
+    width: 862px;
+}
+.part-space{
+    margin-right: 10px;
+}

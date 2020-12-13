@@ -1,0 +1,123 @@
+/* 顶部
+---------------------------------------------------------------- */
+.top{
+    /* height: 30px; */
+    background-color:#f3f3f3 ;
+    line-height: 30px;
+}
+.top-container-left{
+    float: left;
+}
+.top li{
+    float: right;
+}
+.top li a{
+    float: right;
+    margin-right: 20px;
+}
+.top-container-right .iconfont{
+    font-size:13px ;
+}
+/* 头部
+---------------------------------------------------------------- */
+.header{
+    /* height: 110px; */
+    background-color:#fff;
+}
+.header .logo{
+    height: 110px;
+    /* line-height: 110px; */
+    float: left;
+
+}
+.header .logo a{
+    float: left;
+    color: #52c41a;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 17px;
+}
+.search{
+    height: 110px;
+    float: left;
+    background-color:tomato;
+}
+/* 焦点
+---------------------------------------------------------------- */
+.focus{
+    height: 470px;
+    background-color: blue;
+}
+/* 热销导航
+---------------------------------------------------------------- */
+.hot .container{
+    background-color:#eee;
+    height: 300px;
+    margin-bottom: 40px;
+}
+.hot-card{
+    float: left;
+    height: 300px;
+    text-align: center;
+    background-image: linear-gradient(rgb(9, 170, 245),rgb(5, 243, 152));
+}
+.hot-card h4{
+    font-size: 40px;
+    color: #fafafa;
+    margin-top: 98px;
+    margin-bottom: 28px;
+}
+.hot-card .iconfont{
+    font-size:40px ;
+    color: #fafafa;
+}
+.hot-list{
+    float: left;
+    height: 300px;
+    text-align: center;
+    background-color: pink;
+}
+.list-goods{
+    height: 300px;
+    background-color: #fff;
+}
+.list-goods a img{
+    width: 180px;
+    height: 180px;
+    margin-top: 39px;
+    margin-bottom: 5px;
+}
+.list-goods p{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #333;
+    font-size: 14px;
+    /* display: inline-block; */
+}
+.list-goods .price{
+    color: #ff0011;
+    font-size: 14px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.list-goods .buy-num{
+    color:rgba(000, 000, 000, 0.45);
+    font-size: 11px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+/* 楼层
+---------------------------------------------------------------- */
+.floor{
+    height: 800px;
+    background-color: greenyellow;
+}
+/* 底部
+---------------------------------------------------------------- */
+.footer{
+    height: 250px;
+    background-color: pink;
+}
